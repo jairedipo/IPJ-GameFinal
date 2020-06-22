@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8446309074519977004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8446309074519977005}
+  - component: {fileID: 8446309074519977007}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8446309074519977005
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446309074519977004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -5, y: 60}
+  m_SizeDelta: {x: 10, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8446309074519977007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446309074519977004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418ffad0965d88a439eb72bf62a56bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Digits:
+  - {fileID: -6810740942223422592, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: -3665067100343966506, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: -8884941733306662298, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 824853682182155744, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 2895603171679065893, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 464674070539779870, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: -5079432740467874598, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 6794168758237887545, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 4221819217115868497, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  - {fileID: 8138290344417637573, guid: 988144d244f0cbf469a258bee06a9bf3, type: 3}
+  DigitPrefab: {fileID: 4914782004329459784, guid: 4d767883f27de874d9888e1032abc924,
+    type: 3}
+  custo: 100
